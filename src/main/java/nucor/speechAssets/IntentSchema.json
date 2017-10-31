@@ -1,0 +1,101 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "CITY",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "CUSTOMER",
+          "type": "LIST_OF_CUSTOMERS"
+        },
+        {
+          "name": "YEARNO",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "TotalRevenue"
+    },
+    {
+      "slots": [
+        {
+          "name": "COUNTRY",
+          "type": "AMAZON.Country"
+        },
+        {
+          "name": "CUSTOMER",
+          "type": "LIST_OF_CUSTOMERS"
+        },
+        {
+          "name": "YEARNO",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "TotalProfit"
+    },
+    {
+      "slots": [
+        {
+          "name": "STATE",
+          "type": "AMAZON.US_STATE"
+        },
+        {
+          "name": "CUSTOMER",
+          "type": "LIST_OF_CUSTOMERS"
+        },
+        {
+          "name": "YEARNO",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "MostProfitable"
+    },
+    {
+      "intent": "HearMore"
+    },
+    {
+      "slots": [
+        {
+          "name": "YEARNO",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "CUSTOMER",
+          "type": "LIST_OF_CUSTOMERS"
+        }
+      ],
+      "intent": "AvgSpend"
+    },
+    {
+      "slots": [
+        {
+          "name": "YEARNO",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "SteelMillCapacity"
+    },
+    {
+      "intent": "Capacity"
+    },
+    {
+      "intent": "DontHearMore"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

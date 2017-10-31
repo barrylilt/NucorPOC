@@ -1,0 +1,10 @@
+TotalRevenue Give me the total revenue for {YEARNO} {CUSTOMER}
+TotalRevenue Tell me the total revenue for {YEARNO} {CUSTOMER}
+TotalProfit What is the total profit for {YEARNO} {CUSTOMER} {COUNTRY}
+MostProfitable who is the most profitable {YEARNO} {CUSTOMER} {STATE}
+MostProfitable who is the most profitable customer
+MostProfitable give me the most profitable customer
+AvgSpend Tell me the average spend of a {CUSTOMER} {YEARNO}
+AvgSpend average spend of a {CUSTOMER} {YEARNO}
+Capacity what is the capacity of the mill
+SteelMillCapacity At what capacity was the steel mill running {YEARNO}
